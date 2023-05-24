@@ -1,88 +1,112 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family: 'Josefin Sans' , sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
     /* overflow-x: hidden; */
 }
-.logo{
+
+.logo {
     color: white;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 45px;
     padding-left: 8%;
     padding-right: 8%;
-} 
-.nav2{
+}
+
+.nav2 {
     height: 100px;
     width: 100%;
-    background-color:#000;
+    background-color: #000;
     position: fixed;
     z-index: 1;
-   box-shadow:0.5px 0.5px 10px #f9004d
-} 
-.hero{
+    box-shadow: 0.5px 0.5px 10px #f9004d
+}
+
+.hero {
     height: 100vh;
     width: 100%;
-    background-color:black;
+    background-color: black;
     background-size: cover;
     background-position: center;
 }
-span{
+
+span {
     color: #f9004d;
 }
-nav ul li{
+
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     /* text-transform: capitalize; */
 }
-nav ul li a:hover{
-    transform:scale(0.4s)
+
+nav ul li a:hover {
+    transform: scale(0.4s)
 }
-nav ul li a:hover{
-    color:#f9004d
+
+nav ul li a:hover {
+    color: #f9004d
 }
-.content{
+
+.pic img {
+    max-height: 450px;
+    max-width: 400px;
+    position: relative;
+    left: 60%;
+    top: 250px;
+    border-radius: 100%;
+}
+
+.content {
     position: absolute;
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
 }
-h1{
+
+h1 {
     color: white;
     margin: 20px 0px 20px;
     font-size: 75px;
     position: relative;
     animation: name 2s;
 }
-h3{
+
+h3 {
     color: white;
     font-size: 25px;
     margin-bottom: 50px;
 }
-h4{
+
+h4 {
     color: #fcfc;
     letter-spacing: 2px;
     font-size: 20px;
 }
-.newslatter form{
+
+.newslatter form {
     width: 380px;
     max-width: 100%;
     position: relative;
 }
-.newslatter form input:first-child{
+
+.newslatter form input:first-child {
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
@@ -90,7 +114,8 @@ h4{
     outline: none;
     border-radius: 30px;
 }
-.newslatter form input:last-child{
+
+.newslatter form input:last-child {
     position: absolute;
     display: inline-block;
     outline: none;
@@ -99,27 +124,31 @@ h4{
     border-radius: 30px;
     background-color: #f9004d;
     color: white;
-    box-shadow:0px 0px 0px #000, 0px 0px 15px #858585 ;
-    top: 6px ;
+    box-shadow: 0px 0px 0px #000, 0px 0px 15px #858585;
+    top: 6px;
     right: 6px;
 }
-.about{
+
+.about {
     width: 100%;
     padding: 100px 0px;
     /* background-color: #191919; */
     background: #101010;
 }
-.about img{
+
+.about img {
     height: auto;
-    width: 430px; 
+    width: 430px;
     border-radius: 10px;
     position: relative;
     animation: pic 4s;
 }
-.about-text{
+
+.about-text {
     width: 550px;
 }
-.main{
+
+.main {
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
@@ -127,7 +156,8 @@ h4{
     align-items: center;
     justify-content: space-around;
 }
-.about-text h2{
+
+.about-text h2 {
     color: white;
     font-size: 75px;
     text-transform: capitalize;
@@ -135,21 +165,24 @@ h4{
     position: relative;
     animation: test 4s;
 }
-.about-text h5{
+
+.about-text h5 {
     color: white;
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
-.about-text p{
+
+.about-text p {
     color: #fcfc;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
 }
-button{
+
+button {
     background-color: #f9004d;
     color: white;
     text-decoration: none;
@@ -159,18 +192,21 @@ button{
     border-radius: 30px;
     transition: 0.4s;
 }
-button:hover{
+
+button:hover {
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
 }
-.service{
+
+.service {
     /* background: #101010; */
-    background-color:black;
+    background-color: black;
     width: 100%;
     padding: 100px 0px;
 }
-.title h2{
+
+.title h2 {
     color: white;
     font-size: 75px;
     width: 1130px;
@@ -179,13 +215,15 @@ button:hover{
     position: relative;
     animation: test 4s;
 }
-.box{
+
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 400px;
 }
-.card{
+
+.card {
     height: 365px;
     width: 335px;
     padding: 20px 35px;
@@ -197,25 +235,29 @@ button:hover{
     overflow: hidden;
     text-align: center;
 }
-.card i{
+
+.card i {
     font-size: 50px;
     display: block;
     text-align: center;
     margin: 25px 0px;
     color: #f9004d;
 }
-h5{
+
+h5 {
     color: white;
     font-size: 23px;
     margin-bottom: 15px;
 }
-.pra p{
+
+.pra p {
     color: #fcfc;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
 }
-.card .button{
+
+.card .button {
     background-color: #f9004d;
     color: white;
     text-decoration: none;
@@ -225,18 +267,21 @@ h5{
     border-radius: 30px;
     transition: 0.4s;
 }
-.card .button:hover{
+
+.card .button:hover {
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
 }
-.portfolio{
+
+.portfolio {
     width: 100%;
     height: 700px;
     background-color: #101010;
     padding: 100px 0;
 }
-.portfolio h2{
+
+.portfolio h2 {
     color: white;
     font-size: 75px;
     width: 1130px;
@@ -246,7 +291,8 @@ h5{
     position: relative;
     animation: test 4s;
 }
-.portfolio h5{
+
+.portfolio h5 {
     color: white;
     letter-spacing: 2px;
     font-size: 22px;
@@ -254,31 +300,35 @@ h5{
     text-transform: capitalize;
     text-align: center;
 }
-.portfolio-content{
+
+.portfolio-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     align-items: center;
-    gap:1px;
+    gap: 1px;
     margin-top: 5rem;
     justify-content: space-around;
 }
-.row{
+
+.row {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
 }
-.row img{
+
+.row img {
     width: 100%;
     border-radius: 8px;
     display: block;
     transform: 0.5s;
     overflow: hidden;
 }
-.layer{
+
+.layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.1), #f9004d);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), #f9004d);
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -292,13 +342,15 @@ h5{
     padding: 0 40px;
     transition: height 0.5s;
 }
-.layer h5{
+
+.layer h5 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
 }
-.layer i{
-    color:#f9004d;
+
+.layer i {
+    color: #f9004d;
     margin-top: 20px;
     font-size: 20px;
     background: #fff;
@@ -309,85 +361,102 @@ h5{
     justify-content: center;
     border-radius: 50%;
 }
-.row:hover img{
+
+.row:hover img {
     transform: scale(1.1);
 }
-.row:hover .layer{
+
+.row:hover .layer {
     height: 100%;
 }
-.skills{
-    font-family: Gill Sans,sans-serif;
+
+.skills {
+    font-family: Gill Sans, sans-serif;
     list-style: none;
     background-color: #000;
     width: 100%;
     padding: 100px 0px;
 }
-.skill h1{
+
+.skill h1 {
     text-align: center;
     animation: test 4s;
 }
-.skill h3{
+
+.skill h3 {
     margin: 5px;
 }
-.skill{
-    width:600px;
+
+.skill {
+    width: 600px;
     margin: 60px auto;
     color: #fff;
     background-color: #101010;
     padding: 20px;
-    box-shadow:0 14px 28px rgba(0, 0, 0, 0.25) , 0 10px 10px rgba(0, 0, 0, 0.22)
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)
 }
-.skill li{
+
+.skill li {
     margin: 20px 0;
     padding: 10px;
     text-transform: uppercase;
 }
-.bar{
+
+.bar {
     background: #353b48;
     display: block;
     height: 20px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow:0 1px 3px rgba(0, 0, 0, 0.12) , 0 1px 2px rgba(0, 0, 0, 0.24)
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24)
 }
-.bar{
-    transition:all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+.bar {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
-.bar:hover{
-    box-shadow:0 14px 28px rgba(0, 0, 0, 0.25) , 0 10px 10px rgba(0, 0, 0, 0.22)
+
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)
 }
-.bar span{
+
+.bar span {
     height: 20px;
     float: left;
-    background: linear-gradient(#6f0124,#f9004d,#e62864);
+    background: linear-gradient(#6f0124, #f9004d, #e62864);
 }
-.html{
+
+.html {
     width: 90%;
     animation: html 3s;
 }
-.css{
+
+.css {
     width: 70%;
     animation: css 3s;
 }
-.php{
+
+.php {
     width: 45%;
     animation: php 3s;
 }
-.javascript{
+
+.javascript {
     width: 55%;
     animation: javascript 3s;
 }
-.contact{
+
+.contact {
     /* width: 100%; */
-    height:600px;
+    height: 600px;
     background-color: #101010;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
-.contact-me{
+
+.contact-me {
     /* width: 100%; */
     /* height: 290px; */
     /* background: #191919; */
@@ -398,21 +467,25 @@ h5{
     flex-direction: column;
     justify-content: center;
 }
-.contact-me h2{
+
+.contact-me h2 {
     color: white;
     font-size: 50px;
     position: relative;
     animation: test 4s;
 }
-.contact-me h4{
+
+.contact-me h4 {
     line-height: 1;
 }
-.contact-me p{
+
+.contact-me p {
     color: white;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 30px;
 }
+
 /* .contact-me .button-two{
     background-color: #f9004d;
     color: white;
@@ -428,11 +501,12 @@ h5{
     border: 2px solid #f9004d;
     cursor: pointer;
 } */
-.contact-form form{
+.contact-form form {
     position: relative;
 }
+
 .contact-form form input,
-form textarea{
+form textarea {
     width: 60%;
     padding: 14px;
     background-color: #000;
@@ -441,13 +515,15 @@ form textarea{
     outline: none;
     font-size: 15px;
     border-radius: 8px;
-    margin-bottom:10px ;
+    margin-bottom: 10px;
 }
-.textarea{
+
+.textarea {
     resize: none;
     height: 240px;
 }
-.contact-form .submit{
+
+.contact-form .submit {
     display: inline-block;
     font-size: 16px;
     background-color: #f9004d;
@@ -456,54 +532,61 @@ form textarea{
     transition: all 0.45s ease;
     position: relative;
     top: 30px;
-    right:448px;
+    right: 448px;
     border-radius: 30px;
 }
-.contact-form .submit:hover{
+
+.contact-form .submit:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
-footer{
+
+footer {
     position: relative;
     width: 100%;
-    height:100px;
+    height: 100px;
     background: #101010;
-    background-color:black; 
+    background-color: black;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     justify-content: center;
 }
+
 /* footer p:nth-child(1){
     font-size: 30px;
     color: white;
     margin-bottom: 20px;
     font-weight: bold;
 }  */
-footer p{
-    color:#353b48;
+footer p {
+    color: #353b48;
     font-size: 17px;
     width: 500px;
     text-align: center;
     line-height: 26px;
     position: relative;
     top: 30px;
- }  
- .top i{
+}
+
+.top i {
     padding: 10px;
     border-radius: 8px;
     font-size: 15px;
     color: #fff;
     background-color: #f9004d;
- }
- .top a{
+}
+
+.top a {
     position: relative;
-    left:90%;
- }
-.social{
+    left: 90%;
+}
+
+.social {
     display: flex;
 }
-.social a{
+
+.social a {
     width: 45px;
     height: 45px;
     display: flex;
@@ -516,69 +599,293 @@ footer p{
     text-decoration: none;
     font-size: 20px;
 }
-.social a:hover{
+
+.social a:hover {
     transform: scale(1.3);
-    transition: 0.3s; 
+    transition: 0.3s;
 }
-@keyframes html{
-    0%{
+
+@keyframes html {
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 90%;
     }
 }
-@keyframes css{
-    0%{
+
+@keyframes css {
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 70%;
     }
 }
-@keyframes php{
-    0%{
+
+@keyframes php {
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 45%;
     }
 }
-@keyframes javascript{
-    0%{
+
+@keyframes javascript {
+    0% {
         width: 0%;
     }
-    100%{
+
+    100% {
         width: 55%;
     }
 }
-@keyframes pic{
-    0%{
-        right:200px;
-        top:200px;
+
+@keyframes pic {
+    0% {
+        right: 200px;
+        top: 200px;
     }
-    100%{
-        right:0px;
-        top:0px;
-    }
-}
-@keyframes name{
-    0%{
-        right:500px;
-        top:0px;
-    }
-    100%{
-        right:0px;
-        top:0px;
+
+    100% {
+        right: 0px;
+        top: 0px;
     }
 }
-@keyframes test{
-    0%{
-        top:100px;
+
+@keyframes name {
+    0% {
+        right: 500px;
+        top: 0px;
+    }
+
+    100% {
+        right: 0px;
+        top: 0px;
+    }
+}
+
+@keyframes test {
+    0% {
+        top: 100px;
         right: 0px;
     }
-    100%{
+
+    100% {
         top: 0px;
         right: 0px;
+    }
+}
+
+@media(max-width:450px) {
+    body {
+        background-color: #000;
+        width: 100%;
+    }
+
+    .logo {
+        color: white;
+        font-size: 15px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        position: relative;
+        bottom: 15px;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 2px 10px;
+        position: relative;
+        left: 40px;
+        top: 15px;
+    }
+
+    nav {
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 45px;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 10px;
+    }
+
+    .pic img {
+        /* height: 150px;
+        width: 150px;
+        position: relative;
+        top: 130px;
+        left: 280px; */
+        display: none;
+    }
+
+    .about img {
+        height: 350;
+        width: 350px;
+        border-radius: 10px;
+        position: relative;
+        left: 125px;
+        bottom: 100px;
+        display: block;
+    }
+
+    .about h2 {
+        position: relative;
+        bottom: 350px;
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .about-text {
+        /* width: 100%; */
+        height: 150px;
+        position: relative;
+        bottom: 50px;
+        right: 225px;
+
+    }
+
+    .about-text h5 {
+        position: relative;
+        top: 250px;
+    }
+
+    .about-text p {
+        position: relative;
+        top: 250px;
+        width: 300px;
+
+    }
+
+    .about-text button {
+        position: relative;
+        top: 250px;
+    }
+
+    .main {
+        height: 1000px;
+        width: 300px;
+    }
+
+    .service {
+        height: 1800px;
+        width: 400px;
+    }
+
+    .title h2 {
+        position: relative;
+        right: 10px;
+        width: 100%;
+        font-size: 50px;
+    }
+
+    .box {
+        height: 1600px;
+    }
+    .card1 {
+        position: relative;
+        bottom:500px;
+        max-width: 400px; 
+        height: 450px;
+        padding: 80px 140px;
+        position: relative;
+        left:310px;
+        justify-content: center;
+    }
+    .card .pra{
+        width: 200px;
+        position: relative;
+        right: 100px;
+        bottom: 40px;
+    }
+    .card i{
+        position: relative;
+        right: 25px;
+        bottom: 80px;
+    }
+    .card h5{
+        position: relative;
+        right: 80px;
+        bottom:70px;
+        font-size: 25px;
+    }
+    .card2  {
+        position: relative;
+        max-width: 400px; 
+        height: 450px;
+        padding: 80px 140px;
+        right:0px;
+        justify-content: center;
+    }
+    .card3{
+        position: relative;
+        max-width: 400px; 
+        height: 450px;
+        padding: 80px 140px;
+        right:310px;
+        top: 495px;
+        justify-content: center;
+    }
+    .portfolio{
+        height: 1400px;
+        width: 500px;
+    }
+    .portfolio h2{
+        position: relative;
+        right: 350px;
+    }
+    .portfolio h5{
+        position: relative;
+        right: 50px;
+    }
+    .row .layer {
+        width:400px;
+        margin-bottom: 15px;
+    }
+    .row img{
+        margin-bottom: 30px;
+        width:400px;
+    }
+    .row{
+        position: relative;
+        right: 30px;
+    }
+    .skills{
+        height: 800px;
+    }
+    .skill h1{
+        font-size: 75px;
+    }
+    .skill{
+        width: 400px;
+    }
+    .contact{
+        height: 900px;
+    }
+    .contact-me{
+        width:500px;
+        position: relative;
+        bottom: 300px;
+        right: 15px;
+    }
+    .contact-form{
+        width: 600px;
+        position: relative;
+        right: 500px;
+        top: 30px;
+    }
+    .contact-form .submit{
+        position: relative;
+        right: 365px;
+    }
+    footer p{
+        font-size: 15px;
+        position: relative;
+        right: 30px;
     }
 }
